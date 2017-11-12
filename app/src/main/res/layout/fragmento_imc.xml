@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextoPeso"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campo_peso"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextoEstatura"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campo_estatura"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextoBotonCalcular"
+            android:id="@+id/boton_calcular"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextoBotonLimpiar"
+            android:id="@+id/boton_limpiar"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextoResultado"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/etiqueta_imc"
+        android:text="0.0"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImcApp</string>
+    <string name="TextoPeso">Ingrese el Peso en Kilogramos: </string>
+    <string name ="TextoEstatura">Ingresa la Estatura en Metros: </string>
+    <string name="TextoBotonCalcular">Calcular</string>
+    <string name="TextoBotonLimpiar">Limpiar</string>
+    <string name="TextoResultado">El Indice de Masa Coportal es: </string>
+</resources>
